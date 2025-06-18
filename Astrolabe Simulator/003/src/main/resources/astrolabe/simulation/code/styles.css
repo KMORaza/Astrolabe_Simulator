@@ -1,0 +1,131 @@
+/* Global Styles */
+.root {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 12px;
+    -fx-background-color: #2b2b2b;
+}
+
+/* Astrolabe Front */
+.astrolabe {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #555555;
+    -fx-border-width: 2;
+    -fx-border-radius: 300;
+}
+
+/* Astrolabe Back */
+.astrolabe-back {
+    -fx-background-color: #252525;
+    -fx-border-color: #555555;
+    -fx-border-width: 2;
+    -fx-border-radius: 300;
+}
+
+/* Labels */
+.astrolabe-label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 10px;
+    -fx-fill: #e0e0e0;
+}
+
+.star-label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 9px;
+    -fx-fill: #bbbbbb;
+}
+
+.planet-label {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 9px;
+    -fx-fill: #e0e0e0;
+}
+
+/* Control Panel */
+.control-panel {
+    -fx-background-color: #3a3a3a;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+    -fx-border-color: #4a4a4a;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+.control-panel .label {
+    -fx-text-fill: #ffffff;
+}
+
+/* Toggle Button */
+.toggle-button {
+    -fx-base: #3a3a3a;
+    -fx-text-fill: white;
+    -fx-font-family: "Consolas";
+    -fx-padding: 5 10;
+}
+
+.toggle-button:selected {
+    -fx-base: #4a4a4a;
+}
+
+/* Title */
+.title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+/* Measurement Display */
+.measurement-display {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 12px;
+    -fx-fill: #00cc00;
+}
+
+/* Planet Colors */
+.mercury {
+    -fx-fill: #aaaaaa;
+}
+
+.venus {
+    -fx-fill: #ffd700;
+}
+
+.mars {
+    -fx-fill: #ff4500;
+}
+
+.jupiter {
+    -fx-fill: #cd853f;
+}
+
+.saturn {
+    -fx-fill: #f4a460;
+}
+
+/* Scale Colors */
+.altitude-scale {
+    -fx-stroke: #888888;
+}
+
+.shadow-square {
+    -fx-stroke: #aaaaaa;
+}
+
+.declination-scale {
+    -fx-stroke: #88aa88;
+}
+
+.hour-scale {
+    -fx-stroke: #aa8888;
+}
+
+.trig-scale {
+    -fx-stroke: #8888aa;
+}
+
+.sine-scale {
+    -fx-stroke: #88aa88;
+}
+
+.cosine-scale {
+    -fx-stroke: #8888aa;
+}
